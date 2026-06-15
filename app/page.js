@@ -145,10 +145,10 @@ export default function Home() {
         <div>
           <h2 className="text-3xl font-serif font-bold mb-6 text-gray-900">Hi, I'm Kanishk!</h2>
           <p className="mb-8 text-gray-600 leading-relaxed text-justify">
-            Equipped with a Master of Global Business in Marketing and a foundational background in experiential hospitality, I bring a unique, consumer-centric perspective to brand strategy across diverse industries. I deliver audience-first marketing solutions that not only look and sound great, but align strictly with your business growth objectives. 
+            Equipped with a Master of Global Business in Global Marketing Management and around 3 years of combined full-time and freelance experience, I bring a unique, consumer-centric perspective to brand strategy across diverse industries. With a foundational background in experiential hospitality, I deliver audience-first marketing solutions that not only look and sound great, but align strictly with your business growth objectives. 
           </p>
           
-          <h3 className="font-bold text-lg mb-4 text-gray-900 font-serif">Core Services:</h3>
+          <h3 className="font-bold text-lg mb-4 text-gray-900 font-serif">Core Strengths:</h3>
           <ul className="space-y-6 text-gray-600 text-sm leading-relaxed text-justify">
             <li>
               <strong className="text-gray-900">Brand Strategy & Positioning:</strong> Your strategic objectives matter to me. That's why I craft audience-centric brand storytelling frameworks to strengthen digital visibility and brand recall across modern markets.
