@@ -1,11 +1,11 @@
 'use client';
 
 import React from 'react';
-import { Download, Instagram, Linkedin, TrendingUp, Users, Target, Rocket, PenTool, MonitorPlay } from 'lucide-react';
+import { Download, Instagram, Linkedin, TrendingUp, Users, Target, Rocket, PenTool, MonitorPlay, Award, GraduationCap, Terminal, Sparkles } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-950 text-gray-100 font-sans selection:bg-pink-500 selection:text-white">
+    <div className="min-h-screen bg-gray-950 text-gray-100 font-sans selection:bg-pink-500 selection:text-white pb-20">
       {/* Hero Section */}
       <header className="relative pt-24 pb-16 px-6 sm:px-12 lg:px-24 max-w-7xl mx-auto">
         <div className="absolute top-0 left-0 w-full h-96 bg-gradient-to-br from-purple-900/40 via-pink-900/20 to-transparent blur-3xl -z-10 rounded-full"></div>
@@ -112,58 +112,150 @@ export default function Home() {
         </h3>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[300px]">
-          
           {/* Box 1: GD Goenka */}
           <div className="md:col-span-2 bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden group relative flex flex-col justify-end">
-            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="GD Goenka" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
+            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80" alt="GD Goenka" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/80 to-transparent"></div>
             <div className="relative p-8">
               <span className="bg-pink-500/20 text-pink-400 border border-pink-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block">Brand Positioning</span>
               <h4 className="text-2xl font-bold text-white mb-2">GD Goenka University & Le Cordon Bleu</h4>
-              <p className="text-gray-300 max-w-xl">Established cultural marketing narratives contributing to 25% growth in brand awareness. Led cross-functional collaboration ensuring cohesive online and offline brand communication.</p>
+              <p className="text-gray-300 max-w-xl">We established cultural marketing narratives contributing to 25% growth in brand awareness, and led cross-functional collaboration to ensure cohesive online and offline brand communication.</p>
             </div>
           </div>
 
           {/* Box 2: ISH Grid */}
           <div className="md:col-span-1 bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden group relative flex flex-col justify-end">
-            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="ISH Instagram" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
+            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&w=800&q=80" alt="ISH Instagram" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/80 to-transparent"></div>
             <div className="relative p-8">
               <span className="bg-violet-500/20 text-violet-400 border border-violet-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block">Community Growth</span>
               <h4 className="text-xl font-bold text-white mb-2">École Ducasse & ISH</h4>
-              <p className="text-gray-300 text-sm">Managed platform-native storytelling, reaching 9,700+ followers via 1,300+ posts.</p>
+              <p className="text-gray-300 text-sm">We managed platform-native storytelling, reaching 9,700+ followers via 1,300+ posts.</p>
             </div>
           </div>
 
           {/* Box 3: YouTube Strategy */}
           <div className="md:col-span-1 bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden group relative flex flex-col justify-end">
-            <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="YouTube" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
+            <img src="https://images.unsplash.com/photo-1593697821252-0c9137d9fc45?auto=format&fit=crop&w=800&q=80" alt="Video Content" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/80 to-transparent"></div>
             <div className="relative p-8">
               <MonitorPlay className="text-red-500 mb-4" size={32} />
               <h4 className="text-xl font-bold text-white mb-2">Video Content Strategy</h4>
-              <p className="text-gray-300 text-sm">Scaled YouTube to 1.75K subscribers through experiential series like "T.A.L.K." and "Industry Insights".</p>
+              <p className="text-gray-300 text-sm">We scaled YouTube to 1.75K subscribers through experiential series like "T.A.L.K." and "Industry Insights".</p>
             </div>
           </div>
 
           {/* Box 4: Camp Land's End */}
           <div className="md:col-span-2 bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden group relative flex flex-col justify-end">
-            <img src="https://images.unsplash.com/photo-1504280390224-b8b9391d1e46?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Camp Lands End" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
+            <img src="https://images.unsplash.com/photo-1504280390224-b8b9391d1e46?auto=format&fit=crop&w=1200&q=80" alt="Camp Lands End" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/80 to-transparent"></div>
             <div className="relative p-8">
               <span className="bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block">Digital Identity</span>
               <h4 className="text-2xl font-bold text-white mb-2">{"Camp Land's End"}</h4>
-              <p className="text-gray-300 max-w-xl">Defined the digital identity within the experiential hospitality space. Executed content aligned with travel, lifestyle, and community engagement trends.</p>
+              <p className="text-gray-300 max-w-xl">We defined the digital identity within the experiential hospitality space, executing content aligned with travel, lifestyle, and community engagement trends.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Core Competencies & Skills */}
+      <section className="px-6 sm:px-12 lg:px-24 max-w-7xl mx-auto mb-24">
+        <h3 className="text-3xl font-bold mb-10 text-white flex items-center gap-3">
+          <Sparkles className="text-yellow-400" /> Core Competencies
+        </h3>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Marketing & Strategy */}
+          <div className="bg-gray-900 border border-gray-800 p-8 rounded-3xl">
+            <h4 className="text-xl font-bold text-white mb-6 border-b border-gray-800 pb-4">Marketing & Strategy</h4>
+            <div className="flex flex-wrap gap-2">
+              {['Brand Strategy', 'Growth Marketing', 'Content Strategy', 'Social Media Marketing', 'Campaign Management', 'Performance Marketing', 'Consumer Insights', 'Consumer Psychology', 'Audience Insights', 'Community Engagement', 'Brand Positioning', 'Cultural Marketing', 'Integrated Marketing Strategy', 'Digital Storytelling', 'Brand Communication'].map((skill, i) => (
+                <span key={i} className="bg-gray-800 text-gray-300 px-3 py-1 rounded-md text-sm border border-gray-700">{skill}</span>
+              ))}
+            </div>
+          </div>
+
+          {/* Tools & Platforms */}
+          <div className="bg-gray-900 border border-gray-800 p-8 rounded-3xl flex flex-col gap-8">
+            <div>
+              <h4 className="text-xl font-bold text-white mb-4 border-b border-gray-800 pb-4">Analytics & Tools</h4>
+              <div className="flex flex-wrap gap-2">
+                {['Tableau', 'Power BI', 'Microsoft Excel', 'Google Ads', 'Google Analytics', 'Performance Analytics', 'Campaign Reporting'].map((tool, i) => (
+                  <span key={i} className="bg-blue-900/30 text-blue-300 px-3 py-1 rounded-md text-sm border border-blue-800/50">{tool}</span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h4 className="text-xl font-bold text-white mb-4 border-b border-gray-800 pb-4">Creative & Digital Platforms</h4>
+              <div className="flex flex-wrap gap-2">
+                {['Adobe Creative Suite', 'Instagram Marketing', 'LinkedIn Marketing', 'Facebook Marketing', 'Creator-Led Marketing', 'Platform-Native Communication'].map((plat, i) => (
+                  <span key={i} className="bg-pink-900/30 text-pink-300 px-3 py-1 rounded-md text-sm border border-pink-800/50">{plat}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Education & Certifications */}
+      <section className="px-6 sm:px-12 lg:px-24 max-w-7xl mx-auto mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          {/* Education */}
+          <div>
+            <h3 className="text-3xl font-bold mb-8 text-white flex items-center gap-3">
+              <GraduationCap className="text-blue-500" /> Education
+            </h3>
+            <div className="space-y-6">
+              <div className="bg-gray-900 border border-gray-800 p-6 rounded-2xl relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-1 h-full bg-blue-500"></div>
+                <h4 className="text-lg font-bold text-white">Master of Global Business (Marketing)</h4>
+                <p className="text-gray-400">SP Jain School of Global Management (2025-2026)</p>
+                <p className="text-sm text-gray-500 mt-1">Mumbai, India & Dubai, UAE</p>
+              </div>
+              <div className="bg-gray-900 border border-gray-800 p-6 rounded-2xl relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-1 h-full bg-blue-500"></div>
+                <h4 className="text-lg font-bold text-white">Bachelor's in Culinary Arts Management</h4>
+                <p className="text-gray-400">Indian School of Hospitality (2018-2022)</p>
+                <p className="text-sm text-gray-500 mt-1">Gurugram, India</p>
+              </div>
+              <div className="bg-gray-900 border border-gray-800 p-6 rounded-2xl relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-1 h-full bg-blue-500"></div>
+                <h4 className="text-lg font-bold text-white">Bachelor's in Travel & Tourism Management</h4>
+                <p className="text-gray-400">Maharishi Dayanand University (2018-2022)</p>
+                <p className="text-sm text-gray-500 mt-1">Gurugram, India</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Certifications */}
+          <div>
+            <h3 className="text-3xl font-bold mb-8 text-white flex items-center gap-3">
+              <Award className="text-emerald-500" /> Certifications
+            </h3>
+            <div className="space-y-4">
+              {[
+                { name: 'Google Ads Search Certification', issuer: 'Google Skillshop' },
+                { name: 'Fundamentals of Digital Marketing', issuer: 'Google Digital Garage' },
+                { name: 'Basics of Search Engine Marketing (SEM)', issuer: 'upGrad' },
+                { name: 'Getting Started with Microsoft Excel', issuer: 'Microsoft' }
+              ].map((cert, i) => (
+                <div key={i} className="flex items-center gap-4 bg-gray-900 border border-gray-800 p-5 rounded-2xl group hover:border-emerald-500/50 transition-colors">
+                  <div className="bg-gray-800 p-3 rounded-lg group-hover:bg-emerald-500/20 transition-colors">
+                    <Award size={24} className="text-gray-400 group-hover:text-emerald-400" />
+                  </div>
+                  <div>
+                    <h4 className="text-md font-bold text-white">{cert.name}</h4>
+                    <p className="text-sm text-gray-400">{cert.issuer}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
 
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-800 py-8 text-center text-gray-500">
-        <p>© {new Date().getFullYear()} Kanishk Dawar. Built for Growth.</p>
-      </footer>
     </div>
   );
 }
