@@ -32,12 +32,12 @@ export default function Home() {
       ]
     },
     ish: {
-      title: "École Ducasse India & ISH",
+      title: "École Ducasse India & Indian School of Hospitality, Gurugram",
       role: "Marketing Executive",
       points: [
         "Managed social media handles including Instagram, Facebook, Linkedin, and YouTube.",
-        "Strategized social media content creation for ISH, enhancing engagement and audience growth by 30%.",
-        "Coordinated internal marketing events and assisted in marketing strategies development for ISH, driving brand awareness."
+        "Strategized social media content creation for the Indian School of Hospitality, Gurugram, enhancing engagement and audience growth by 30%.",
+        "Coordinated internal marketing events and assisted in marketing strategies development for the Indian School of Hospitality, Gurugram, driving brand awareness."
       ]
     },
     camp: {
@@ -179,10 +179,10 @@ export default function Home() {
           <div onClick={() => setActiveModal('ish')} className="group cursor-pointer">
             <img 
               src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=600&q=80" 
-              alt="ISH" 
+              alt="Indian School of Hospitality, Gurugram" 
               className="w-full aspect-square object-cover mb-4 grayscale group-hover:grayscale-0 transition-all duration-500"
             />
-            <h4 className="font-bold text-sm text-center text-gray-900 group-hover:underline decoration-1 underline-offset-4">École Ducasse & ISH</h4>
+            <h4 className="font-bold text-sm text-center text-gray-900 group-hover:underline decoration-1 underline-offset-4">École Ducasse & Indian School of Hospitality, Gurugram</h4>
             <p className="text-xs text-center text-gray-500 mt-2">Click to view impact</p>
           </div>
 
