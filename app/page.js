@@ -55,7 +55,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex flex-col items-center text-center mt-12 px-6 max-w-4xl mx-auto">
         <img 
-          src="/kanishk-headshot.jpg" 
+          src="/kanishk-headshot.jpg.jpeg" 
           alt="Kanishk Dawar" 
           className="w-32 h-32 rounded-full object-cover mb-8 shadow-md grayscale hover:grayscale-0 transition-all duration-500"
         />
