@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Download, Instagram, Linkedin, TrendingUp, Users, Target, Rocket, PenTool, MonitorPlay, Award, GraduationCap, Terminal, Sparkles } from 'lucide-react';
+import { Download, Instagram, Linkedin, TrendingUp, Users, Target, Rocket, PenTool, MonitorPlay, Award, GraduationCap, Sparkles, Mail } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -23,6 +23,13 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-4">
             <a 
+              href="mailto:kanishkdawar0851@gmail.com" 
+              className="flex items-center gap-2 bg-rose-600 hover:bg-rose-700 text-white px-6 py-3 rounded-full font-semibold transition-all shadow-lg shadow-rose-500/30"
+            >
+              <Mail size={20} />
+              Email Me
+            </a>
+            <a 
               href="https://www.linkedin.com/in/kanishk-dawar-63b112169" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -32,7 +39,7 @@ export default function Home() {
               LinkedIn
             </a>
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/the_dancing_kooook/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 text-white px-6 py-3 rounded-full font-semibold transition-all shadow-lg shadow-pink-500/30"
@@ -123,9 +130,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Box 2: ISH Grid */}
+          {/* Box 2: ISH Grid (Updated reliable image) */}
           <div className="md:col-span-1 bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden group relative flex flex-col justify-end">
-            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&w=800&q=80" alt="ISH Instagram" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
+            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80" alt="ISH Campus" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/80 to-transparent"></div>
             <div className="relative p-8">
               <span className="bg-violet-500/20 text-violet-400 border border-violet-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block">Community Growth</span>
@@ -145,9 +152,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Box 4: Camp Land's End */}
+          {/* Box 4: Camp Land's End (Updated reliable image) */}
           <div className="md:col-span-2 bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden group relative flex flex-col justify-end">
-            <img src="https://images.unsplash.com/photo-1504280390224-b8b9391d1e46?auto=format&fit=crop&w=1200&q=80" alt="Camp Lands End" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
+            <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=1200&q=80" alt="Camp Lands End" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/80 to-transparent"></div>
             <div className="relative p-8">
               <span className="bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block">Digital Identity</span>
