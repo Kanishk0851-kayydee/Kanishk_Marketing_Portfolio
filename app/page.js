@@ -145,7 +145,7 @@ export default function Home() {
         <div>
           <h2 className="text-3xl font-serif font-bold mb-6 text-gray-900">Hi, I'm Kanishk!</h2>
           <p className="mb-8 text-gray-600 leading-relaxed text-justify">
-            Equipped with a Master of Global Business in Global Marketing Management and around 3 years of combined full-time and freelance experience, I bring a unique, consumer-centric perspective to brand strategy across diverse industries. With a foundational background in experiential hospitality, I deliver audience-first marketing solutions that not only look and sound great, but align strictly with your business growth objectives. 
+            Equipped with a <strong className="text-gray-900 font-bold">Master of Global Business in Global Marketing Management</strong> and around <strong className="text-gray-900 font-bold">3 years</strong> of combined full-time and freelance experience, I bring a unique, consumer-centric perspective to brand strategy across diverse industries. With a foundational background in experiential hospitality, I deliver audience-first marketing solutions that not only look and sound great, but align strictly with your business growth objectives. 
           </p>
           
           <h3 className="font-bold text-lg mb-4 text-gray-900 font-serif">Core Strengths:</h3>
