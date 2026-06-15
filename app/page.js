@@ -114,8 +114,11 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl font-serif font-bold leading-tight text-gray-900 mb-4">
             Kanishk Dawar
           </h1>
-          <p className="text-xl md:text-2xl font-medium text-gray-500 mb-10 tracking-wider font-serif italic">
+          <p className="text-xl md:text-2xl font-medium text-gray-500 mb-4 tracking-wider font-serif italic">
             Brand and Growth Marketer
+          </p>
+          <p className="text-sm md:text-base text-gray-600 mb-10 max-w-md leading-relaxed">
+            Building brands, driving growth, and solving business challenges through strategy, consumer insights, and execution.
           </p>
           <a 
             href="mailto:kanishkdawar0851@gmail.com" 
