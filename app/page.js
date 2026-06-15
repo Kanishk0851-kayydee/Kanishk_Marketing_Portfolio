@@ -11,26 +11,26 @@ export default function Home() {
       title: "GD Goenka University & Le Cordon Bleu",
       role: "Assistant Manager - Marketing",
       points: [
-        "We developed brand positioning and cultural narratives for Le Cordon Bleu, resulting in 25% increase in brand awareness[cite: 3].",
-        "We led cross-functional teams to align brand communication across channels[cite: 3].",
-        "We implemented data-driven performance marketing strategies, improving ROI by 20%[cite: 3]."
+        "We developed brand positioning and cultural narratives for Le Cordon Bleu, resulting in 25% increase in brand awareness.",
+        "We led cross-functional teams to align brand communication across channels.",
+        "We implemented data-driven performance marketing strategies, improving ROI by 20%."
       ]
     },
     ish: {
       title: "École Ducasse India & ISH",
       role: "Marketing Executive",
       points: [
-        "We managed social media handles including Instagram, Facebook, Linkedin, and YouTube[cite: 3].",
-        "We strategized social media content creation for ISH, enhancing engagement and audience growth by 30%[cite: 3].",
-        "We coordinated internal marketing events and assisted in marketing strategies development for ISH, driving brand awareness[cite: 3]."
+        "We managed social media handles including Instagram, Facebook, Linkedin, and YouTube.",
+        "We strategized social media content creation for ISH, enhancing engagement and audience growth by 30%.",
+        "We coordinated internal marketing events and assisted in marketing strategies development for ISH, driving brand awareness."
       ]
     },
     camp: {
       title: "Camp Land's End",
       role: "Social Media Coordinator",
       points: [
-        "We set up the Social Media presence for the business and worked on brand awareness to establish a place in the industry[cite: 3].",
-        "We strategized content creation and execution for the brand[cite: 3]."
+        "We set up the Social Media presence for the business and worked on brand awareness to establish a place in the industry.",
+        "We strategized content creation and execution for the brand."
       ]
     }
   };
@@ -148,7 +148,7 @@ export default function Home() {
             <span className="text-xs font-bold tracking-widest text-gray-400 uppercase mb-2 block">Fintech / App Growth</span>
             <h3 className="text-2xl font-serif font-bold text-gray-900 mb-4">Growth Strategy & User Activation for ArihantPlus</h3>
             <p className="text-gray-600 leading-relaxed">
-              We developed a growth framework to transition a traditional brokerage to an app-first model, optimizing the lead-to-funded client conversion funnel[cite: 3]. We leveraged behavioral "nudge" tactics and media-mix strategies to reduce onboarding friction and scale DAU and 30-day retention[cite: 3].
+              We developed a growth framework to transition a traditional brokerage to an app-first model, optimizing the lead-to-funded client conversion funnel. We leveraged behavioral "nudge" tactics and media-mix strategies to reduce onboarding friction and scale DAU and 30-day retention.
             </p>
           </div>
 
@@ -157,7 +157,7 @@ export default function Home() {
             <span className="text-xs font-bold tracking-widest text-gray-400 uppercase mb-2 block">Media / Entertainment</span>
             <h3 className="text-2xl font-serif font-bold text-gray-900 mb-4">Fan Engagement & Monetization in Streaming (TVF)</h3>
             <p className="text-gray-600 leading-relaxed">
-              We addressed the critical challenge of monetizing niche content by investigating how fan engagement strategies translate into viable revenue streams within the competitive streaming landscape[cite: 3]. The outcomes provide a data-driven framework linking specific community-building tactics to monetization success, offering actionable recommendations for global expansion in markets like the UAE[cite: 3].
+              We addressed the critical challenge of monetizing niche content by investigating how fan engagement strategies translate into viable revenue streams within the competitive streaming landscape. The outcomes provide a data-driven framework linking specific community-building tactics to monetization success, offering actionable recommendations for global expansion in markets like the UAE.
             </p>
           </div>
 
@@ -166,7 +166,7 @@ export default function Home() {
             <span className="text-xs font-bold tracking-widest text-gray-400 uppercase mb-2 block">FMCG / B2B Innovation</span>
             <h3 className="text-2xl font-serif font-bold text-gray-900 mb-4">B2B Product Strategy & Innovation with Nestlé India</h3>
             <p className="text-gray-600 leading-relaxed">
-              We collaborated with Nestlé India to lead a project on New Product Developments (NPD) for the B2B food services sector[cite: 3]. We conducted in-depth demand analysis with hotels and restaurants to inform product ideation and align innovation with strategic market opportunities[cite: 3].
+              We collaborated with Nestlé India to lead a project on New Product Developments (NPD) for the B2B food services sector. We conducted in-depth demand analysis with hotels and restaurants to inform product ideation and align innovation with strategic market opportunities.
             </p>
           </div>
         </div>
