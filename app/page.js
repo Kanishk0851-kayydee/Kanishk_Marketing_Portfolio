@@ -63,11 +63,11 @@ export default function Home() {
           
           <div className="flex flex-wrap justify-center gap-6 text-sm tracking-wide uppercase font-semibold text-gray-600">
             <a href="#about" className="hover:text-gray-900 transition-colors">About</a>
+            <a href="#skills" className="hover:text-gray-900 transition-colors">Skills</a>
             <a href="#work" className="hover:text-gray-900 transition-colors">Experience</a>
             <a href="#projects" className="hover:text-gray-900 transition-colors">Projects</a>
             <a href="/KanishkDawar_Brand and Growth Marketing_2026.pdf" download className="hover:text-gray-900 transition-colors">Resume</a>
             <a href="https://www.linkedin.com/in/kanishk-dawar-63b112169" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">LinkedIn</a>
-            <a href="https://www.instagram.com/the_dancing_kooook/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">Instagram</a>
           </div>
         </nav>
       </div>
@@ -120,6 +120,44 @@ export default function Home() {
             alt="Workspace" 
             className="w-full h-auto object-cover grayscale opacity-90"
           />
+        </div>
+      </section>
+
+      {/* Skills & Certificates Section (Moved Up) */}
+      <section id="skills" className="max-w-5xl mx-auto mt-32 px-6 grid md:grid-cols-2 gap-16">
+        {/* Skills */}
+        <div>
+          <h2 className="text-2xl font-serif font-bold mb-8 text-gray-900">Skills & Tools</h2>
+          <div className="flex flex-wrap gap-3">
+            {[
+              'Brand Strategy', 'Brand Positioning', 'Social Media Marketing', 
+              'Consumer Insights', 'Digital Marketing', 'Content Strategy & Creation', 
+              'Adobe Creative Suite', 'Tableau', 'Power BI', 'StreamLit Dashboards', 'Canva'
+            ].map((skill, i) => (
+              <span key={i} className="border border-gray-300 text-gray-700 px-4 py-2 text-xs uppercase tracking-widest hover:border-gray-900 hover:text-gray-900 transition-colors cursor-default">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Certificates */}
+        <div>
+          <h2 className="text-2xl font-serif font-bold mb-8 text-gray-900">Certifications</h2>
+          <ul className="space-y-6">
+            {[
+              { name: "Fundamentals of Digital Marketing", issuer: "Google" },
+              { name: "Basics of SEM", issuer: "upGrad" },
+              { name: "Getting Started with Microsoft Excel", issuer: "Microsoft" },
+              { name: "Google Ads Search Certification", issuer: "Google Skillshop" },
+              { name: "Blue Ocean Strategy Simulation", issuer: "Stratx" }
+            ].map((cert, i) => (
+              <li key={i} className="border-b border-gray-200 pb-4">
+                <h4 className="font-bold text-gray-900 text-sm tracking-wide">{cert.name}</h4>
+                <p className="text-xs text-gray-500 uppercase tracking-widest mt-1">{cert.issuer}</p>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
