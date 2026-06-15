@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Instagram, Linkedin, FileText, Mail } from 'lucide-react';
+import { Instagram, Linkedin } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -23,14 +23,14 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="flex flex-col items-center text-center mt-12 px-6 max-w-4xl mx-auto">
-        {/* Replace with your actual headshot */}
+        {/* Make sure the src matches the exact name of the file you uploaded to the public folder */}
         <img 
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" 
+          src="/kanishk-headshot.jpg" 
           alt="Kanishk Dawar" 
-          className="w-32 h-32 rounded-full object-cover mb-8 shadow-md grayscale"
+          className="w-32 h-32 rounded-full object-cover mb-8 shadow-md grayscale hover:grayscale-0 transition-all duration-500"
         />
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight text-gray-900 mb-8">
-          Strategic Brand and Growth Marketing For Hospitality & Education
+          Audience-First Brand Strategy and Data-Driven Growth Marketing
         </h1>
         <a 
           href="mailto:kanishkdawar0851@gmail.com" 
@@ -45,19 +45,19 @@ export default function Home() {
         <div>
           <h2 className="text-3xl font-serif font-bold mb-6 text-gray-900">Hi, I'm Kanishk!</h2>
           <p className="mb-8 text-gray-600 leading-relaxed">
-            I combine my background in Culinary Arts and Hospitality with advanced marketing expertise to deliver audience-first brand strategies that not only look and sound great, but align strictly with your business growth objectives. 
+            Equipped with a Master of Global Business in Marketing and a foundational background in experiential hospitality, I bring a unique, consumer-centric perspective to brand strategy across diverse industries. I deliver audience-first marketing solutions that not only look and sound great, but align strictly with your business growth objectives. 
           </p>
           
           <h3 className="font-bold text-lg mb-4 text-gray-900 font-serif">Core Services:</h3>
           <ul className="space-y-6 text-gray-600 text-sm leading-relaxed">
             <li>
-              <strong className="text-gray-900">Brand Strategy & Positioning:</strong> Your strategic objectives matter to me. That's why we craft audience-centric brand storytelling frameworks to strengthen digital visibility and Gen Z brand recall.
+              <strong className="text-gray-900">Brand Strategy & Positioning:</strong> Your strategic objectives matter to me. That's why we craft audience-centric brand storytelling frameworks to strengthen digital visibility and brand recall across modern markets.
             </li>
             <li>
               <strong className="text-gray-900">Growth Marketing:</strong> Bridging the gap between creative and analytics. We develop performance-led audience acquisition strategies using data-driven targeting, consistently improving engagement ROI.
             </li>
             <li>
-              <strong className="text-gray-900">Content & Community Strategy:</strong> Every business encounters challenges in standing out. I create platform-native content strategies and cultural marketing narratives that build engaged, loyal communities.
+              <strong className="text-gray-900">Content & Community Strategy:</strong> Every business encounters challenges in standing out. I create platform-native content strategies and cultural marketing narratives that build engaged, loyal communities for forward-thinking enterprises.
             </li>
           </ul>
         </div>
