@@ -12,7 +12,7 @@ export default function Home() {
         
         <div className="max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-light text-gray-300 mb-6 italic">
-            "Hello! We all need marketing presence and we can't do it yourself. I am here with the right strategy and direction."
+            {"\"Hello! We all need marketing presence and we can't do it yourself. I am here with the right strategy and direction.\""}
           </h2>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
             Kanishk Dawar
@@ -152,7 +152,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/80 to-transparent"></div>
             <div className="relative p-8">
               <span className="bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block">Digital Identity</span>
-              <h4 className="text-2xl font-bold text-white mb-2">Camp Land's End</h4>
+              <h4 className="text-2xl font-bold text-white mb-2">{"Camp Land's End"}</h4>
               <p className="text-gray-300 max-w-xl">Defined the digital identity within the experiential hospitality space. Executed content aligned with travel, lifestyle, and community engagement trends.</p>
             </div>
           </div>
